@@ -1,0 +1,123 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family:'josefin sans', Sans-Serif ;
+  box-sizing:border-box;}
+.main{
+  height:100vh ;
+  width:100%; 
+  background-color:black;
+  background-size: cover;
+  background-position:center ;}
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 45px;
+  padding-left: 8%;
+  padding-right: 8%;}
+.logo{
+  color: green;
+  font-size: 35px;
+  letter-spacing:1px ;
+  cursor: pointer;}
+span {  
+  color:#f9004d ;}
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding:10px 25px ;}
+nav ul li a{
+  color: white;
+  font-size:13px;
+  text-decoration:none ;
+  font-weight:bold ;
+  text-transform: capitalize;}
+nav ul li a : hover{
+  color: #f9004d;
+  transition:.4s;}
+.btn{ 
+  background-color:#f9004d ;  
+  color:white ;
+  text-decoration: none;
+  border:2px solid trasparent ;
+  font-weight:bold ;
+  padding:10px 25px ;
+  border-radius:30px ;
+  transition: transform .4s;}
+.content{
+  position:absolute ;
+  top:50% ;
+  left: 8%;
+  transform:translate y (-50%) ;}
+h1{
+  color:white ;
+  margin: 20 px 0px 20px;
+  font-size:75px ;}
+h3{
+  color: white;
+  font-size:25px ;
+  margin-bottom: 50px ;}
+h4{
+  color:#fcfc ;
+  letter-spacing: 2px;
+  font-size:20px ;}
+.submit form{
+  width: 380px;
+  max-width: 100%;
+  position: relative ;}
+#mail{
+  display: inline-block ;
+  width: 100%;
+  padding: 14px 13 px 15 px;
+  border: 2px solid #f9004d;
+  outline:none ;
+  border-radius:30px ;}
+#sub{
+  position: absolute ;
+  display: inline-block ;
+  outline:none ;
+  border: none;
+  padding: 10px 30px;
+  border-radius: 30px;
+  background-color: #f9004d;
+  top:0px ;
+  right: 1px;
+  font-weight: bold;}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+*{
+  margin: 0; 
+  padding: 0;
+  box-sizing: border-box;}
+ html {
+    font-size: 10px;}
+    body { background: url('./images/background.png'); 
+    background-position: 0 1000px; font-family: 'Roboto', sans-serif;}
+.container{
+max-width: 1100px;
+margin: 0 auto; 
+padding: 0 3rem; 
+margin-top: 4rem; 
+text-align: center;
+}
+h1 {
+  color: #398f51; 
+  font-size: 5rem; 
+  font-weight: 700; 
+  letter-spacing: 8px;
+  margin-bottom: 2rem;
+ h2 {
+    color: #777; 
+    font-size: 4rem; 
+    font-weight: 400; 
+     }
+ .image{
+  margin-top: 10rem;
+  margin-bottom: 5rem;
+  border: 5px solid #555 ;
+  border-radius:50% }
+ p {
+ font-size: 3rem;
+ color: #fff;
+ line-height: 5rem;
+  margin-bottom: 5rem}
